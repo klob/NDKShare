@@ -26,6 +26,8 @@
 
 1.简单 android jni 编程
 
-2.优化 listview
+###下次分享预告
+
+优化 listview， 让你的列表飞起来
 
 
