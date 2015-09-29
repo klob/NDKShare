@@ -6,6 +6,8 @@
 #include "util.h"
 #include "common.h"
 
+#include "jni.h"
+
 JNIEXPORT void JNICALL Java_com_diandi_klob_ndkshare_Engine_callJNIInt
         (JNIEnv * env, jobject obj, jint i)
 {

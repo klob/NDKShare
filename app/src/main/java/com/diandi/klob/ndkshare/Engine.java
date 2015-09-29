@@ -25,6 +25,10 @@ public class Engine {
         mContext = context;
     }
 
+    public void callbackInt(int i) {
+        showMsg(i+"");
+    }
+
     public native void callJNIInt(int i);
 
     public native void callJNIString(String s);
@@ -42,9 +46,7 @@ public class Engine {
 
     }
 
-    public void callbackInt(int i) {
-        showMsg(i+"");
-    }
+
 
     public void callbackString(String s) {
         showMsg(s + "");
