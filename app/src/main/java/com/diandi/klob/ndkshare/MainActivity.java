@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Uri uri = Uri.parse("https://github.com/klob");
+            Uri uri = Uri.parse("https://github.com/klob/NDKShare");
             Intent intent = new Intent(Intent.ACTION_VIEW,uri);
             startActivity(intent);
             return true;
